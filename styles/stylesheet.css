@@ -76,21 +76,23 @@ section ul li{
 	text-decoration:none;
 	display:inline-block;
 	vertical-align:top;
-	margin: 0px 6px 0px 6px;
-	padding: 0px 0px 0px 0px;
+	margin: 0 6px 0 0;
+	padding: 0;
 }
 	
 article{
-	padding: 11rem 0 0 0;
+	padding: 0;
+	margin: 0 0 10rem 0;
+	/*padding: 11rem 0 0 0;*/
 	text-align: left;
 	line-height: 1.8rem;
 	width: 100%;
 	border: solid #AACCFF;
 	border-width: 0 0 2rem .1rem;
 	border-radius: 0 0 0 24px;
-	margin: 0;
+	/*margin: 0;*/
 	width: 100%;
-	padding: 9rem 0 9rem 0;
+	padding: 9rem 0 3rem 0;
 	
 	
 }	
