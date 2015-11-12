@@ -1,48 +1,45 @@
 @charset "utf-8";
-/* CSS Document */
-
+*{
+	 box-sizing: border-box;
+	 }
 body{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 1.2em;
 	color: #FFF;
 	background-color: #09F;
-	padding-top: 24px;
-	padding-right: 54px;
-	padding-bottom: 36px;
-	padding-left: 44px;
-	margin-top: 24px;
-	margin-right: 44px;
-	margin-bottom: 36px;
-	margin-left: 44px;
+	padding: 0 0 0 .3rem;
+	margin: .6rem .6rem .3rem .3rem;
 	border: solid #CCC;
-	border-width: 1px 1px 6px 6px;
-	border-radius: 24px 24px 24px 24px;
-	text-align:center;
+	border-width: 0 0 .2rem .1rem;
+	border-radius: 24px 0 0 24px;
+	text-align: center;
 }
 
 header{
-	text-align: right;
-	}
+	/*text-align: right;*/
+	position: fixed;
+	width: 100%;
+	border: solid #CCC;
+	border-width: 1px 0px 4px 4px;
+	border-radius: 24px 0px 0px 24px;
+	background-color: #069;
+}
 
 h1{
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	text-transform:uppercase;
-	letter-spacing: .3em;
-	word-spacing: 1em;
+	letter-spacing: .3rem;
+	word-spacing: 1rem;
 	text-align:center;
 	margin: 32px 16px 16px 16px;
 	color: #fff;
 }
 
 nav{
-	background-color: #069;
 	width: 100%;
 	text-align: left;
 	padding: 16px 18px 26px 32px;
-	margin: 0px 0px 3em 0px;
-	border: solid #CCC;
-	border-width: 1px 0px 4px 4px;
-	border-radius: 24px 0px 0px 24px;
+	margin: 0px 0px 3rem 0px;
 }
 
 ul{
@@ -54,13 +51,16 @@ ul{
 li{
 	display: inline;
 }
+li p{
+	margin: 0 0 .8rem 0;}
 
 section{
-	background-color:#069;
+	/*background-color:#069;*/
 	width: 100%;
-	padding: 0px 50px 0px 0px;
+	padding: 5rem 0 0 0;
+	margin: 0 0 10rem 0;
 	border: solid #CCC;
-	border-width: 1px 0px 4px 4px;
+	border-width: 0 0 2rem .1rem;
 	border-radius: 24px 0px 0px 24px;
 	}
 
@@ -68,7 +68,7 @@ section ul li{
 	width: 30%;
 	min-width: 156px;
 	text-align:left;
-	font-size: .7em;
+	font-size: .8rem;
 	text-decoration:none;
 	display:inline-block;
 	vertical-align:top;
@@ -78,11 +78,12 @@ section ul li{
 	
 article{
 	text-align: left;
-	vertical-align: top;
-	overflow:hidden;
-	background-color:#069;
+	line-height: 1.8rem;
+	/*vertical-align: top;*/
+	/*overflow:hidden;*/
+	/*background-color:#069*/
 	width: 100%;
-	padding: 0px 13px 36px 36px;
+	/*padding: 0px 63px 36px 36px;*/
 	border: solid #CCC;
 	border-width: 1px 0px 4px 4px;
 	border-radius: 24px 0px 0px 24px;
@@ -94,29 +95,28 @@ article img{
 	}
 
 footer{
-	margin: 54px 0px -32px 0px;
+	margin: -7rem 0 0 0;
 	font-size: .7em;
+	float:right;
+	/*position: fixed;
+	overflow:visible;*/
 	}
+	
+footer ul li:first-child {
+	padding: 0 4rem 0 0;
+}	
 
 a:link{
-	font-family: Arial, Helvetica, sans-serif;
-	color: #CCC;
+	font-family: 'Comfortaa', sans-serif;
+	font-weight:300;
+	/*font-weight:400;
+	font-weight:700;*/
+	color: #fff;
 	font-size: 2em;
 	margin: 0px 1em 0px 0px;
 	padding: 0px 0px 1em 0px;
 	white-space: nowrap;
-	text-decoration:underline;
-	border:none;
-	}
-
-a:hover{
-	font-family: Arial, Helvetica, sans-serif;
-	color: #999;
-	font-size: 2em;
-	margin: 0px 1em 0px 0px;
-	padding: 0px 0px 1em 0px;
-	text-decoration: none;
-	border:none;
+	text-decoration:none;
 	}
 
 a:active{
@@ -126,15 +126,28 @@ a:active{
 	margin: 0px 1em 0px 0px;
 	padding: 0px 0px 1em 0px;
 	text-decoration: none;
-	border:none;
 	}
 
 a:visited{
 	font-family: Arial, Helvetica, sans-serif;
-	color: #CCC;
+	color: #fff;
 	font-size: 2em;
 	margin: 0px 1em 0px 0px;
 	padding: 0px 0px 1em 0px;
 	white-space: nowrap;
-	border:none;
 	}
+	
+a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999;
+	font-size: 2em;
+	margin: 0px 1em 0px 0px;
+	padding: 0px 0px 1em 0px;
+	text-decoration: none;
+	}
+i{
+	cursor:pointer;
+	float: right;
+	}
+	
+		
