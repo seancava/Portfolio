@@ -28,14 +28,14 @@ header{
 }
 
 h1{
-	font-size: 1.5rem;
+	font-size: 2rem;
 	text-transform:uppercase;
 	text-decoration:underline;
 	letter-spacing: .3rem;
 	word-spacing: 1rem;
 	text-align:center;
 	margin: 32px 16px 16px 16px;
-	color: #2F4F7F;
+	color:#FC3;
 }
 
 nav{
@@ -68,11 +68,17 @@ section{
 	border-radius: 0 0 0 24px;
 }
 
+section a:link{
+	font-size: 1rem;
+	color:#FC3;
+}
+
 section ul li{
 	width: 30%;
 	min-width: 156px;
 	text-align:left;
-	font-size: .8rem;
+	font-size: 1rem;
+	line-height: 1.3rem;
 	text-decoration:none;
 	display:inline-block;
 	vertical-align:top;
@@ -93,8 +99,6 @@ article{
 	/*margin: 0;*/
 	width: 100%;
 	padding: 9rem 0 3rem 0;
-	
-	
 }	
 	
 article img{
@@ -103,14 +107,18 @@ article img{
 }
 
 footer{
-	margin: -7rem 0 0 0;
+	margin: 0 0 2rem 0;
 	font-size: .7em;
-	float:right;
+	text-align: center;
 }
 	
-footer ul li:first-child {
-	padding: 0 3rem 0 0;
+footer ul li{
+	padding: 0 2rem 0 0;
 }	
+
+footer p {
+	margin: 2rem 0 0 0;
+	}
 
 a:link{
 	font-family: 'Comfortaa', sans-serif;
@@ -118,9 +126,9 @@ a:link{
 	color: #FFF;
 	font-size: 2em;
 	margin: 0px 1em 0px 0px;
-	padding: 0p;
+	padding: 0;
 	white-space: nowrap;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 a:active{
@@ -146,7 +154,7 @@ a:visited{
 a:hover{
 	ffont-family: 'Comfortaa', sans-serif;
 	font-weight:300;
-	color: #4B7FCC;
+	color:#00F;
 	font-size: 2em;
 	margin: 0px 1em 0px 0px;
 	padding: 0;
@@ -154,7 +162,7 @@ a:hover{
 }
 i{
 	cursor:pointer;
-	float: right;
+	
 }
 	
 		
